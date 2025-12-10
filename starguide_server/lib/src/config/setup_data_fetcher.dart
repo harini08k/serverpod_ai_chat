@@ -2,7 +2,7 @@ import 'package:starguide_server/src/business/data_fetcher.dart';
 import 'package:starguide_server/src/business/data_sources/github_discussions.dart';
 import 'package:starguide_server/src/business/data_sources/github_docs.dart';
 
-late final String latestServerpodVersion;
+late String? latestServerpodVersion;
 
 Future<void> configureDataFetcher() async {
   final serverpodDocs = await GithubDocsDataSource.versioned(
@@ -13,7 +13,7 @@ Future<void> configureDataFetcher() async {
     branch: 'main',
     domain: 'Serverpod framework',
   );
-  latestServerpodVersion = serverpodDocs.latestVersion!;
+  latestServerpodVersion = serverpodDocs.latestVersion;
 
   final serverpodDiscussions = GithubDiscussionsDataSource(
     owner: 'serverpod',
@@ -22,14 +22,14 @@ Future<void> configureDataFetcher() async {
     domain: 'Serverpod',
   );
 
-  final serverpodCloudDocs = GithubDocsDataSource(
-    owner: 'serverpod',
-    repo: 'serverpod_cloud',
-    basePath: 'docs/docs',
-    referenceUrl: Uri.parse('https://docs.serverpod.cloud'),
-    branch: 'main',
-    domain: 'Serverpod Cloud',
-  );
+  //final serverpodCloudDocs = GithubDocsDataSource(
+  //  owner: 'serverpod',
+  //  repo: 'serverpod_cloud',
+  //  basePath:  'docs/docs',
+  //  referenceUrl: Uri.parse('https://docs.serverpod.cloud'),
+  //  branch: 'main',
+  //  domain: 'Serverpod Cloud',
+  //);
 
   final relicDocs = GithubDocsDataSource(
     owner: 'serverpod',
@@ -42,7 +42,7 @@ Future<void> configureDataFetcher() async {
 
   final dataSources = [
     serverpodDocs,
-    serverpodCloudDocs,
+    //serverpodCloudDocs,
     serverpodDiscussions,
     relicDocs,
   ];

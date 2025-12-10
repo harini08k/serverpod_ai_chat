@@ -18,6 +18,8 @@ void run(List<String> args) async {
     authenticationHandler: auth.authenticationHandler,
   );
 
+  
+
   await configureDataFetcher();
   DataFetcher.instance.register(pod);
 

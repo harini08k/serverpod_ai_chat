@@ -44,3 +44,7 @@ sessionLogs:
   persistentEnabled: true
   consoleEnabled: true
   consoleLogFormat: text
+
+
+
+
