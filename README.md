@@ -1,11 +1,13 @@
-## 🌟 My Learning Implementation (Harini Karthikeyan)
+# 🌟 My Learning Implementation (Harini Karthikeyan)
 
 **Note:** This repository is the original *Starguide* project by the Serverpod team.
 I cloned, configured, and ran it locally as a learning exercise to understand Serverpod, vector search, and the RAG workflow.
 
 All credit for the original code and architecture belongs to the Serverpod maintainers.
-Please see `HARINI_NOTES.md` for my personal setup steps, issues I fixed, and learning notes.
+Please see [HARINI_NOTES.md](./HARINI_NOTES.md) for my personal setup steps, issues I fixed, and learning notes.
 
+
+---
 
 # Starguide
 Starguide is a full-stack application built with Serverpod, featuring a Dart server backend and a Flutter frontend. It allows you to ask any questions about Serverpod and uses AI to semantically search the documentation and GitHub discussions, which is stored in a vector database. Try it out here:
