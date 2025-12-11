@@ -9,11 +9,12 @@
   - Fix: updated Dart SDK version to [project required version]
   - Commands:
 
-## install or switch Dart/Flutter version as appropriate
+## Install or switch Dart/Flutter version as appropriate
 
 - 2025-12-09 11:00 — passwords.yaml syntax issue
   - Fix: corrected YAML indentation and added my keys to `starguide_server/config/passwords.yaml`
 
 
 - 2025-12-09 11:20 — Verified server logs and successful streaming responses in Flutter
+
 
