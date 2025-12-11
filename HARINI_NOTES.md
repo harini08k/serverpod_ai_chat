@@ -1,4 +1,4 @@
-# HARINI’S LEARNING NOTES — Serverpod StarGuide Implementation
+# HARINI’S LEARNING NOTES - Serverpod StarGuide Implementation
 
 This is my personal documentation of running and exploring the StarGuide project by the Serverpod team.
 I cloned the project to learn Serverpod end-to-end: backend, Flutter client, PgVector, and the RAG pipeline.
