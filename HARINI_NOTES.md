@@ -33,8 +33,7 @@ flutter run
 - Migration error: updated Dart SDK to match project requirement.
 - Config loading: fixed YAML indentation in `config/passwords.yaml`.
 
-(See `notes/issues_fixed.md` for a brief log of exact commands and timestamps.)
-, see [screenshots.md](./screenshots.md)
+(See [notes/issues_fixed.md](notes/issues_fixed.md) for a brief log of exact commands and timestamps.)
 
 ---
 
