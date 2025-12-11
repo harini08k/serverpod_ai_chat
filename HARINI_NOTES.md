@@ -34,6 +34,7 @@ flutter run
 - Config loading: fixed YAML indentation in `config/passwords.yaml`.
 
 (See `notes/issues_fixed.md` for a brief log of exact commands and timestamps.)
+, see [screenshots.md](./screenshots.md)
 
 ---
 
@@ -46,7 +47,7 @@ flutter run
 ---
 
 ## Screenshots
-I added screenshots of my local run in `/screenshots`:
+I added screenshots of my local run, see [screenshots.md](./screenshots.md)
 
 ---
 
