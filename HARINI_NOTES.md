@@ -16,12 +16,15 @@ I wanted hands-on experience with:
 
 ## What I set up & ran (commands I executed)
 # From repo root
+
+```
 cd starguide_server
 docker compose up --detach
 dart bin/main.dart --apply-migrations
 
 cd ../starguide_flutter
 flutter run
+```
 
 ---
 
