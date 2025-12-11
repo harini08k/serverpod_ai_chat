@@ -47,7 +47,7 @@ flutter run
 ---
 
 ## Screenshots
-I added screenshots of my local run, see [screenshots.md](./screenshots)
+I added screenshots of my local run, see [/screenshots](./screenshots)
 
 ---
 
